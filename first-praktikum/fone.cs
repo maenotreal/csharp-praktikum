@@ -20,6 +20,7 @@ namespace csharp_praktikum.first_praktikum
                 n += b;
             }
             Console.WriteLine("Ответ: " + a);
+            Console.WriteLine();
             Console.ReadKey();
         }
     }

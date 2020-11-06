@@ -13,9 +13,13 @@ namespace csharp_praktikum.first_praktikum
             advert(); Console.WriteLine("---------------------------------");
             fone.f1();
             Console.WriteLine("---------------------------------");
+            ftwo.advert();
+            Console.WriteLine();
             Console.Write("Введите a: "); int a = int.Parse(Console.ReadLine());
             Console.Write("Введите b: "); int b = int.Parse(Console.ReadLine());
             ftwo.f1(a, b);
+            Console.Write("Введите сумму делителей которую вы хотите увидеть: "); int n = int.Parse(Console.ReadLine());
+            ftwo.f2(a, b, n);
         }
     }
 }
