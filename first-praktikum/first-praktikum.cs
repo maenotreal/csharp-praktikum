@@ -11,8 +11,11 @@ namespace csharp_praktikum.first_praktikum
         {
             Console.Clear();
             advert(); Console.WriteLine("---------------------------------");
-            Console.Write("Введите натуральное число: "); double n = double.Parse(Console.ReadLine());
-            fone.f1(n);
+            fone.f1();
+            Console.WriteLine("---------------------------------");
+            Console.Write("Введите a: "); int a = int.Parse(Console.ReadLine());
+            Console.Write("Введите b: "); int b = int.Parse(Console.ReadLine());
+            ftwo.f1(a, b);
         }
     }
 }
