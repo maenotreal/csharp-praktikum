@@ -21,13 +21,13 @@ namespace csharp_praktikum
             switch (choose) 
             {
                 case 1:
-                    first_praktikum.first_praktikum.firstmain();
+                    first_praktikum.first_praktikum.main();
                     goto main;
                 case 2:
-                    first_praktikum.first_praktikum.firstmain();
+                    second_praktikum.second_praktikum.main();
                     goto main;
                 case 3:
-                    first_praktikum.first_praktikum.firstmain();
+                    first_praktikum.first_praktikum.main();
                     goto main;
                 case 4:
                     System.Environment.Exit(1);
