@@ -10,7 +10,7 @@ namespace csharp_praktikum.first_praktikum
         {
             main:
             Console.Clear();
-            for (int i = 1; i <= 6; i++)
+            for (int i = 1; i <= 7; i++)
             {
                 if (i < 6)
                     Console.WriteLine(i + " задание");
@@ -37,6 +37,9 @@ namespace csharp_praktikum.first_praktikum
                     fivemain();
                     goto main;
                 case 6:
+                    sixmain();
+                    goto main;
+                case 7:
                     return 0;
             }
             return 0;
@@ -79,6 +82,12 @@ namespace csharp_praktikum.first_praktikum
             Console.Clear();
             advert(); Console.WriteLine("---------------------------------");
             ffive.f1();
+        }
+        private static void sixmain()
+        {
+            Console.Clear();
+            advert(); Console.WriteLine("---------------------------------");
+            fsix.f1();
         }
     }
 }

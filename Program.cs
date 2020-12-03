@@ -5,7 +5,7 @@ namespace csharp_praktikum
 {
     class Program
     {
-        static void Main(string[] args)
+         static void Main(string[] args)
         {
             main:
             Console.Clear();
@@ -27,7 +27,7 @@ namespace csharp_praktikum
                     second_praktikum.second_praktikum.main();
                     goto main;
                 case 3:
-                    first_praktikum.first_praktikum.main();
+                   first_praktikum.first_praktikum.main();
                     goto main;
                 case 4:
                     System.Environment.Exit(1);

@@ -26,13 +26,7 @@ namespace csharp_praktikum.first_praktikum
                 x += per.h;
             }
         }
-        //private static void func(double x, out double y) Оно не работает
-        //{
-        //    if (Math.Abs(x) > 1)
-        //    {
-        //        y = Math.Pow(x, 2) - 1;
-        //    }
-        //}
+
         public static void f1()
         {
             fthree per = new fthree();

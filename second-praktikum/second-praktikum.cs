@@ -31,10 +31,10 @@ namespace csharp_praktikum.second_praktikum
                     fthree.main();
                     goto main;
                 case 4:
-                    fone.main();
+                    ffour.main();
                     goto main;
                 case 5:
-                    fone.main();
+                    ffive.main();
                     goto main;
                 case 6:
                     return 0;

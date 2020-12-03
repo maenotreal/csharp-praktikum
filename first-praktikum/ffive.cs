@@ -11,6 +11,20 @@ namespace csharp_praktikum.first_praktikum
         {
             advert();
             Console.WriteLine();
+            Console.Write("Введите n: "); int n = int.Parse(Console.ReadLine());
+            rec_method(n);
+            Console.ReadKey();
+        }
+
+        private static void rec_method(int n)
+        {
+            if (n == 0)
+                Console.WriteLine(n);
+            else
+            {
+                Console.Write(n + " ");
+                rec_method(n - 1);
+            }
         }
     }
 }
